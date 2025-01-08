@@ -1,0 +1,87 @@
+/* ===========================================
+   STYLES POUR L'ÉDITEUR GUTENBERG
+   Ces styles sont appliqués uniquement dans 
+   l'éditeur de WordPress pour une meilleure
+   expérience d'édition
+   =========================================== */
+
+/* Largeur par défaut des blocs */
+.wp-block {
+    max-width: 1200px; /* Correspond à la largeur du contenu du site */
+}
+
+/* Configuration des alignements spéciaux */
+.wp-block[data-align="wide"] {
+    max-width: 1400px; /* Blocs plus larges que la normale */
+}
+
+.wp-block[data-align="full"] {
+    max-width: none; /* Blocs en pleine largeur */
+}
+
+/* ===========================================
+   TYPOGRAPHIE DE BASE
+   Définit les styles de texte dans l'éditeur
+   =========================================== */
+.editor-styles-wrapper {
+    /* Police système par défaut pour une meilleure performance */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Style du titre principal dans l'éditeur */
+.editor-post-title__block .editor-post-title__input {
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/* ===========================================
+   STYLES DES BLOCS SPÉCIFIQUES
+   Personnalisation des blocs Gutenberg
+   =========================================== */
+
+/* Style des citations */
+.wp-block-quote {
+    border-left: 4px solid #000; /* Barre verticale à gauche */
+    padding-left: 1em;
+}
+
+/* Style des citations en pleine largeur */
+.wp-block-pullquote {
+    border-top: 4px solid #000;    /* Bordure supérieure */
+    border-bottom: 4px solid #000; /* Bordure inférieure */
+    padding: 2em 0;
+}
+
+/* ===========================================
+   STYLES DES BOUTONS
+   Configuration des boutons dans l'éditeur
+   =========================================== */
+
+/* Style par défaut des boutons */
+.wp-block-button__link {
+    background-color: #007bff; /* Couleur Bootstrap primary */
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+}
+
+/* Style des boutons avec contour */
+.is-style-outline .wp-block-button__link {
+    background-color: transparent;
+    border: 2px solid #007bff;
+    color: #007bff;
+}
+
+/* ===========================================
+   STYLES DES IMAGES
+   Configuration des images dans l'éditeur
+   =========================================== */
+
+/* Assure que les images sont responsives */
+.wp-block-image img {
+    max-width: 100%;
+    height: auto;
+}

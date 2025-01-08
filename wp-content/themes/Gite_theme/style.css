@@ -1,0 +1,20 @@
+/*
+Theme Name: Gite theme
+Theme URI: https://wordpress.org/themes/gite-theme/
+Author: Giovani
+Author URI: https://wordpress.org/
+Description: Un thème moderne et responsive pour les sites de gîtes et locations saisonnières. Compatible avec l'éditeur Gutenberg et optimisé pour une expérience utilisateur exceptionnelle. Inclut le support Bootstrap 5 pour une mise en page flexible et réactive.
+Version: 1.1.0
+Requires at least: 6.4
+Tested up to: 6.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: gite
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+*/
+
+body{
+    background-color: #bcb3b3;
+   
+}

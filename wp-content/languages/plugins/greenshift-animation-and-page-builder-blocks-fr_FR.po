@@ -1,0 +1,671 @@
+# Translation of Plugins - Greenshift &#8211; animation and page builder blocks - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Greenshift &#8211; animation and page builder blocks - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-05-29 16:59:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Greenshift &#8211; animation and page builder blocks - Stable (latest release)\n"
+
+#: blockrender/spline3d/block.json
+msgctxt "block title"
+msgid "Spline 3d Loader"
+msgstr "Spline 3d Loader"
+
+#: blockrender/map/block.json
+msgctxt "block title"
+msgid "Map"
+msgstr "Carte"
+
+#: blockrender/switcher/block.json
+msgctxt "block title"
+msgid "Switcher"
+msgstr "Commutateur"
+
+#: blockrender/social-share/block.json
+msgctxt "block description"
+msgid "Social Share buttons"
+msgstr "Boutons de partages sur les réseaux sociaux"
+
+#: blockrender/social-share/block.json
+msgctxt "block title"
+msgid "Social Share"
+msgstr "Partage social"
+
+#: blockrender/button/block.json blockrender/buttonbox/block.json
+msgctxt "block title"
+msgid "Button"
+msgstr "Bouton"
+
+#: blockrender/video/block.json
+msgctxt "block title"
+msgid "Video"
+msgstr "Vidéo"
+
+#: blockrender/toc/block.json
+msgctxt "block title"
+msgid "Table of Content"
+msgstr "Table des matières"
+
+#: blockrender/titlebox/block.json
+msgctxt "block title"
+msgid "Title Box"
+msgstr "Titre de la boîte"
+
+#: blockrender/tabs/block.json
+msgctxt "block title"
+msgid "Tabs"
+msgstr "Onglets"
+
+#: blockrender/tab/block.json
+msgctxt "block title"
+msgid "Tab"
+msgstr "Onglet"
+
+#: blockrender/swiper/block.json
+msgctxt "block title"
+msgid "Slider"
+msgstr "Diaporama"
+
+#: blockrender/swipe/block.json
+msgctxt "block title"
+msgid "Slide"
+msgstr "Glisser"
+
+#: blockrender/svg-shape/block.json
+msgctxt "block title"
+msgid "Shape Divider"
+msgstr "Forme du séparateur"
+
+#: blockrender/row/block.json
+msgctxt "block title"
+msgid "Row"
+msgstr "Rangée"
+
+#: blockrender/progressbar/block.json
+msgctxt "block title"
+msgid "Progress Bar"
+msgstr "Barre de progression"
+
+#: blockrender/modelviewer/block.json
+msgctxt "block title"
+msgid "3D Model Viewer"
+msgstr "Visionneuse de modèle 3D"
+
+#: blockrender/infobox/block.json
+msgctxt "block title"
+msgid "Infobox"
+msgstr "Boîte d’infos"
+
+#: blockrender/image/block.json
+msgctxt "block title"
+msgid "Image"
+msgstr "Image"
+
+#: blockrender/iconList/block.json
+msgctxt "block title"
+msgid "Icon List"
+msgstr "Liste avec icônes"
+
+#: blockrender/icon-box/block.json
+msgctxt "block title"
+msgid "Icon box"
+msgstr "Icône Box"
+
+#: blockrender/heading/block.json
+msgctxt "block title"
+msgid "Heading"
+msgstr "Titrage"
+
+#: blockrender/counter/block.json
+msgctxt "block title"
+msgid "Counter"
+msgstr "Compteur"
+
+#: blockrender/countdown/block.json
+msgctxt "block title"
+msgid "Countdown"
+msgstr "Compte à rebours"
+
+#: blockrender/container/block.json
+msgctxt "block title"
+msgid "Container"
+msgstr "Conteneur"
+
+#: blockrender/column/block.json
+msgctxt "block title"
+msgid "Column"
+msgstr "Colonne"
+
+#: blockrender/accordionitem/block.json
+msgctxt "block title"
+msgid "Accordion item"
+msgstr "Elément de l’accordéon"
+
+#: blockrender/accordion/block.json
+msgctxt "block title"
+msgid "Accordion"
+msgstr "Accordéon"
+
+#: blockrender/toggler/block.json
+msgctxt "block title"
+msgid "Toggler"
+msgstr "Bascule"
+
+#: templates/admin/navleft.php:74
+msgid "Global Settings"
+msgstr "Réglages globaux"
+
+#: settings.php:916 settings.php:925
+msgid "Get an API Key"
+msgstr "Obtenir une clé de l’API"
+
+#: settings.php:912 templates/admin/import-page.php:530
+msgid "Google API Key"
+msgstr "Clé de l’API Google"
+
+#: settings.php:475
+msgid "API Keys"
+msgstr "Clés de l’API"
+
+#: templates/admin/contact-page.php:27
+msgid "Private contact form"
+msgstr "Formulaire de contact privé"
+
+#: templates/admin/addon-page.php:20
+msgid "Your addons"
+msgstr "Vos modules"
+
+#: includes/patterns.php:1976
+msgctxt "Block pattern description"
+msgid "Block with CTA"
+msgstr "Bloc avec CTA"
+
+#: includes/patterns.php:1972
+msgid "CTA banner block"
+msgstr "Bloc de bannière CTA"
+
+#: includes/patterns.php:1911
+msgctxt "Block pattern description"
+msgid "CTA block with button"
+msgstr "Bloc CTA avec bouton"
+
+#: includes/patterns.php:1907
+msgid "CTA panel with button"
+msgstr "Panneau CTA avec bouton"
+
+#: includes/patterns.php:475
+msgctxt "Block pattern description"
+msgid "Icon block"
+msgstr "Bloc icône"
+
+#: includes/patterns.php:315
+msgctxt "Block pattern description"
+msgid "Price table"
+msgstr "Tableau de prix"
+
+#: includes/patterns.php:311
+msgid "Price table"
+msgstr "Tableau de prix"
+
+#: includes/patterns.php:471
+msgid "Four circled icons"
+msgstr "Quatre icônes encerclées"
+
+#: includes/patterns.php:37
+msgid "List with checkmarks"
+msgstr "Liste avec coches"
+
+#: includes/patterns.php:41
+msgctxt "Block pattern description"
+msgid "List with check marks"
+msgstr "Liste avec coches"
+
+#: settings.php:859
+msgid "Specify URLs of pages (one per line)."
+msgstr "Spécifiez les URL des pages (une par ligne)."
+
+#: settings.php:830
+msgid "Attention! This is experimental feature"
+msgstr "Attention ! Il s’agit d’une fonctionnalité expérimentale"
+
+#: includes/patterns.php:1867
+msgctxt "Block pattern description"
+msgid "Image Grid with Headline"
+msgstr "Grille d’images avec titre"
+
+#: includes/patterns.php:1863
+msgid "Image Grid with Headline"
+msgstr "Grille d’images avec titre"
+
+#: includes/patterns.php:1574
+msgctxt "Block pattern description"
+msgid "Category grid"
+msgstr "Grille de catégorie"
+
+#: includes/patterns.php:1570
+msgid "Category grid"
+msgstr "Grille de catégories"
+
+#: includes/patterns.php:1373
+msgctxt "Block pattern description"
+msgid "Info with review"
+msgstr "Info avec avis"
+
+#: includes/patterns.php:1369
+msgid "Info with review"
+msgstr "Info avec avis"
+
+#: includes/patterns.php:1291
+msgctxt "Block pattern description"
+msgid "Featured product with card"
+msgstr "Produit mis en avant avec carte"
+
+#: includes/patterns.php:1287
+msgid "Featured product with card"
+msgstr "Produit mis en avant avec carte"
+
+#: includes/patterns.php:1036
+msgid "Video with CTA"
+msgstr "Vidéo avec CTA"
+
+#: includes/patterns.php:1040
+msgctxt "Block pattern description"
+msgid "Hero block with video CTA"
+msgstr "Bloc bannière d’accroche vidéo avec CTA"
+
+#: includes/patterns.php:951
+msgctxt "Block pattern description"
+msgid "Product CTA"
+msgstr "Produit CTA"
+
+#: includes/patterns.php:947
+msgid "Product Price table"
+msgstr "Produit table de prix"
+
+#: includes/patterns.php:869
+msgid "Circle cloud"
+msgstr "Circle cloud"
+
+#: includes/patterns.php:873
+msgctxt "Block pattern description"
+msgid "circle cloud"
+msgstr "circle cloud"
+
+#: includes/patterns.php:769
+msgctxt "Block pattern description"
+msgid "QA section"
+msgstr "Section Q/R"
+
+#: includes/patterns.php:765
+msgid "QA section"
+msgstr "Section Q/R"
+
+#: includes/patterns.php:721 includes/patterns.php:1506
+msgctxt "Block pattern description"
+msgid "Info block"
+msgstr "Bloc d’information"
+
+#: includes/patterns.php:631
+msgctxt "Block pattern description"
+msgid "Icons with lines"
+msgstr "Icônes avec lignes"
+
+#: includes/patterns.php:585
+msgctxt "Block pattern description"
+msgid "Video block with CTA"
+msgstr "Bloc vidéo avec CTA"
+
+#: includes/patterns.php:581
+msgid "Two column video CTA"
+msgstr "Vidéo CTA à deux colonnes"
+
+#: includes/patterns.php:535
+msgctxt "Block pattern description"
+msgid "Hero block with CTA"
+msgstr "Bloc bannière d’accroche avec CTA"
+
+#: includes/patterns.php:531
+msgid "Hero block with CTA"
+msgstr "Bloc bannière d’accroche avec CTA"
+
+#: includes/patterns.php:181
+msgctxt "Block pattern description"
+msgid "Central Features"
+msgstr "Fonctionnalités centrales"
+
+#: includes/patterns.php:177
+msgid "Central Features"
+msgstr "Fonctionnalités centrales"
+
+#: includes/patterns.php:133
+msgid "Block with CTA"
+msgstr "Bloc avec CTA"
+
+#: includes/patterns.php:12
+msgid "Greenshift Wireframes"
+msgstr "Wireframes Greenshift"
+
+#: settings.php:855
+msgid "Page Urls (one per line)."
+msgstr "Url de page (une par ligne)."
+
+#: settings.php:849
+msgid "Enable on whole site except selected pages"
+msgstr "Activer sur tout le site sauf sur les pages sélectionnées"
+
+#: settings.php:848
+msgid "Enable only on selected pages"
+msgstr "Activation uniquement sur les pages sélectionnées"
+
+#: settings.php:847
+msgid "Enable on whole site"
+msgstr "Activer sur l’ensemble du site"
+
+#: settings.php:844
+msgid "Javascript delay options"
+msgstr "Options de délai Javascript"
+
+#: settings.php:840
+msgid "Enable script delay for Greenshift's scripts"
+msgstr "Activer la temporisation des scripts de Greenshift"
+
+#: templates/admin/import-page.php:504
+msgid "Script Management"
+msgstr "Gestion des scripts"
+
+#: templates/admin/contact-page.php:31
+msgid "Ticket system on Wordpress.org"
+msgstr "Système de tickets sur WordPress.org"
+
+#: templates/admin/addon-page.php:250 templates/admin/addon-page.php:280
+#: templates/admin/addon-page.php:310 templates/admin/addon-page.php:342
+#: templates/admin/addon-page.php:374
+msgid "Buy Now"
+msgstr "Acheter maintenant"
+
+#: settings.php:204 settings.php:205 templates/admin/navleft.php:77
+msgid "Addons"
+msgstr "Modules"
+
+#: templates/admin/upgrade-page.php:297
+msgid "Congratulations, You have our Best available plan"
+msgstr "Félicitations, vous avez notre meilleure offre disponible"
+
+#: templates/admin/upgrade-page.php:294
+msgid "All in ONE Lifetime - Active"
+msgstr "All in ONE Lifetime - Active"
+
+#: settings.php:222 settings.php:223 templates/admin/contact-page.php:17
+msgid "Contact Us"
+msgstr "Nous contacter"
+
+#: settings.php:213 settings.php:214
+msgid "Upgrade"
+msgstr "Mettre à niveau"
+
+#: edd/EddLicensePage.php:740
+msgid "Activated succesfull."
+msgstr "Bien activée."
+
+#: edd/EddLicensePage.php:439
+msgid "Your license key has reached its activation limit."
+msgstr "Votre clé de licence a atteint sa limite d’activation."
+
+#. translators: the plugin name
+#: edd/EddLicensePage.php:435
+msgid "This appears to be an invalid license key for %s."
+msgstr "Cette clé de licence semble être invalide pour %s."
+
+#: edd/EddLicensePage.php:430
+msgid "Your license is not active for this URL."
+msgstr "Votre licence n’est pas active pour cette URL."
+
+#: edd/EddLicensePage.php:425
+msgid "Invalid license."
+msgstr "Licence invalide."
+
+#: edd/EddLicensePage.php:421
+msgid "Your license key has been disabled."
+msgstr "Votre clé de licence a été désactivée."
+
+#. translators: the license key expiration date
+#: edd/EddLicensePage.php:414
+msgid "Your license key expired on %s."
+msgstr "Votre clé de licence a expiré le %s."
+
+#: edd/EddLicensePage.php:401 edd/EddLicensePage.php:443
+#: edd/EddLicensePage.php:568
+msgid "An error occurred, please try again."
+msgstr "Une erreur est survenue, veuillez réessayer."
+
+#: edd/EddLicensePage.php:299
+msgid "Expires:"
+msgstr "Expire :"
+
+#: edd/EddLicensePage.php:294
+msgid "This license is expired"
+msgstr "La licence est expirée"
+
+#: edd/EddLicensePage.php:284
+msgid "License:"
+msgstr "Licence :"
+
+#: edd/EddLicensePage.php:276
+msgid "Activate License"
+msgstr "Activer la licence"
+
+#: edd/EddLicensePage.php:271
+msgid "Deactivate License"
+msgstr "Désactiver la licence"
+
+#: edd/EddLicensePage.php:256
+msgid "Enter your license key."
+msgstr "Saisir votre clé de licence."
+
+#: edd/EddLicensePage.php:239
+msgid "This is where you enter your license key. If you have All in one license, you can activate it without activation separate addons"
+msgstr "C’est ici que vous saisissez votre clé de licence. Si vous avez une licence « Tout en un », vous pouvez l’activer sans activer de modules séparés."
+
+#: edd/EddLicensePage.php:215
+msgid "Plugins License Options"
+msgstr "Options de licence des extensions"
+
+#: edd/EddLicensePage.php:172 edd/EddLicensePage.php:173
+#: edd/EddLicensePage.php:188
+msgid "Manage Licenses"
+msgstr "Gérer les licences"
+
+#: templates/admin/settings_general_font_item.php:75
+msgid "Remove Font"
+msgstr "Retirer la police"
+
+#: templates/admin/settings_general_font_item.php:46
+msgid "Current file"
+msgstr "Fichier actuel"
+
+#: templates/admin/settings_general_font_item.php:42
+msgid "Upload .%s font file"
+msgstr "Téléverser le fichier de police %s"
+
+#: templates/admin/settings_general_font_item.php:35
+msgid "Font file"
+msgstr "Fichier de police"
+
+#: templates/admin/settings_general_font_item.php:13
+msgid "Font"
+msgstr "Police"
+
+#: settings.php:1237
+msgid "If you use template inside other dynamic ajax blocks"
+msgstr "Si vous utilisez un modèle dans d’autres blocs Ajax dynamiques"
+
+#: settings.php:1080
+msgid "Documentation"
+msgstr "Documentation"
+
+#: templates/admin/settings_general_font_item.php:21
+msgid "Font Family Name"
+msgstr "Nom de la famille de police"
+
+#: templates/admin/settings_general_font_item.php:27
+msgid "Make sure that name has only Latin symbols without numbers and special characters"
+msgstr "Assurez-vous que le nom comporte uniquement des symboles latins sans chiffres ni caractères spéciaux"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: plugin.php
+msgid "https://greenshiftwp.com"
+msgstr "https://greenshiftwp.com"
+
+#: includes/patterns.php:115
+msgctxt "Block pattern description"
+msgid "CTA banner block"
+msgstr "Bloc de bannière CTA"
+
+#: includes/patterns.php:111
+msgid "CTA simple banner"
+msgstr "Bannière simple CTA"
+
+#: blockrender/social-share/block.php:148
+msgid "Check out:"
+msgstr "Partage mail :"
+
+#: settings.php:774
+msgid "Default Row Content Width"
+msgstr "Largeur du contenu de ligne par défaut"
+
+#: settings.php:1060 templates/admin/settings_general_form.php:36
+#: build/gspbSiteEditor.js:1 build/gspbStylebook.js:1
+msgid "Save"
+msgstr "Enregistrer"
+
+#: templates/admin/navleft.php:57 build/gspbLibrary.js:1
+msgid "Upgrade Now"
+msgstr "Mettre à niveau maintenant"
+
+#: includes/patterns.php:55
+msgctxt "Block pattern description"
+msgid "CSS grid with 4 items"
+msgstr "Grille CSS avec 4 éléments"
+
+#: includes/patterns.php:51
+msgid "Container grid 4 items"
+msgstr "Grille de conteneur à 4 éléments"
+
+#: settings.php:545
+msgid "Inline in Head"
+msgstr "En ligne dans l’en-tête"
+
+#: settings.php:546
+msgid "Inline in block"
+msgstr "En ligne dans le bloc"
+
+#: settings.php:536
+msgid "Use Inline in block only if you have some issues with not updating styles of blocks or cache. Once saved as inline in block, styles can be overwritten only when you update post with blocks"
+msgstr "Utilisez inline dans le bloc uniquement si vous rencontrez des problèmes avec la non-mise à jour des styles de blocs ou de cache. Une fois enregistrés en tant que bloc en ligne, les styles ne peuvent être remplacés que lorsque vous mettez à jour la publication avec des blocs"
+
+#: includes/patterns.php:27
+msgctxt "Block pattern description"
+msgid "button with secondary label and icon"
+msgstr "bouton avec libellé secondaire et icône"
+
+#: includes/patterns.php:24
+msgid "Button Style"
+msgstr "Style de bouton"
+
+#: includes/patterns.php:17
+msgid "Greenshift Elements"
+msgstr "Éléments Greenshift"
+
+#: settings.php:1241
+msgid "On view trigger:"
+msgstr "Déclencheur à la vue :"
+
+#: settings.php:1240
+msgid "Click trigger:"
+msgstr "Cliquer sur le déclencheur :"
+
+#: settings.php:1238
+msgid "Shortcode for Ajax render:"
+msgstr "Code court pour le rendu Ajax :"
+
+#: settings.php:1223
+msgid "Usage"
+msgstr "Utilisation"
+
+#: settings.php:1222
+msgid "Block title"
+msgstr "Titre du bloc"
+
+#: settings.php:1239
+msgid "Hover trigger:"
+msgstr "Déclencheur au survol :"
+
+#: settings.php:646 templates/admin/addon-page.php:248
+#: templates/admin/addon-page.php:278 templates/admin/addon-page.php:308
+#: templates/admin/addon-page.php:340 templates/admin/addon-page.php:372
+#: templates/admin/settings_general_font_item.php:49 build/index.js:1
+msgid "Download"
+msgstr "Téléchargement"
+
+#: templates/admin/settings_general_font_item.php:51 build/gspbSiteEditor.js:1
+#: build/gspbStylebook.js:1 build/index.js:1
+msgid "Remove"
+msgstr "Retirer"
+
+#: settings.php:766
+msgid "Desktop"
+msgstr "Ordinateur"
+
+#: settings.php:758
+msgid "Tablet"
+msgstr "Tablette"
+
+#: settings.php:750
+msgid "Mobile"
+msgstr "Mobile"
+
+#: settings.php:564 settings.php:710 settings.php:865 settings.php:946
+msgid "Save settings"
+msgstr "Enregistrer les réglages"
+
+#: settings.php:542
+msgid "Css location"
+msgstr "Emplacement des CSS"
+
+#: settings.php:487 settings.php:575 settings.php:798 settings.php:877
+#: settings.php:958
+msgid "Sorry, your nonce did not verify."
+msgstr "Désolé, votre nonce n’ a pas été vérifié."
+
+#: settings.php:470 templates/admin/import-page.php:506
+msgid "Breakpoints"
+msgstr "Points de rupture"
+
+#: templates/admin/contact-page.php:24
+msgid "Thank you for using Greenshift. For any bug report or questions, please, contact us:"
+msgstr "Merci d’utiliser Greenshift. Si vous rencontrez un bogue, merci de nous contacter "
+
+#: settings.php:195 settings.php:196 settings.php:465
+msgid "Settings"
+msgstr "Réglages"
+
+#. Author of the plugin
+#: plugin.php
+msgid "Wpsoul"
+msgstr "Wpsoul"
+
+#. Plugin Name of the plugin
+#: plugin.php
+msgid "GreenShift - Animation and Page Builder Blocks"
+msgstr "GreenShift - Animation and Page Builder Blocks"
+
+#. Description of the plugin
+#: plugin.php
+msgid "Animation and page builder for Gutenberg with highest web vitals"
+msgstr "Constructeur de pages et d’animation pour Gutenberg avec les plus hauts signaux web essentiels"
