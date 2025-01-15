@@ -1,0 +1,25 @@
+.appointment-admin-page {
+    padding: 20px;
+}
+
+.appointment-admin-page h1 {
+    margin-bottom: 20px;
+}
+
+.appointment-admin-page .form-table th {
+    width: 200px;
+}
+
+.appointment-admin-page .time-slots-wrapper {
+    margin-top: 20px;
+}
+
+.appointment-admin-page .time-slot {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.appointment-admin-page .time-slot label {
+    margin-left: 5px;
+}
