@@ -10,13 +10,13 @@
                         <!-- function prédéfinie de wordpress pour afficher le texte et les paragaphes -->
                         <h1><?php the_title(); ?></h1>
 
-                        <p>
+                        <!-- <p>
                             <?php echo gite_post_meta(
                                 esc_attr(get_the_date('c')),
                                 esc_html(get_the_date()),
                                 get_the_category_list(',')
                             ); ?>
-                        </p>
+                        </p> -->
 
                         <?php the_content(); ?>
                     </div>

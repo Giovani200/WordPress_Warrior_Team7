@@ -15,6 +15,45 @@ Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-me
 */
 
 body{
-    background-color: #bcb3b3;
+    /* background-color: #bcb3b3; */
    
 }
+
+/* Navbar Adjustments */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.navbar-brand {
+    margin-right: 2rem;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 1rem;
+}
+
+
+/* footer  */
+
+/* .site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+} */
+

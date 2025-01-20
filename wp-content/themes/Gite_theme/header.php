@@ -28,7 +28,7 @@
     <div class="site">
         <header class="site-header">
             <nav class="navbar navbar-expand-lg navbar-light bg-white">
-                <div class="container">
+                <div class="container" style="left: 1px; position: relative;">
                     <!-- Logo -->
                     <a class="navbar-brand" href="<?php echo home_url(); ?>">
                         <?php
@@ -58,7 +58,10 @@
                     </button>
 
                     <!-- Menu principal -->
-                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="collapse navbar-collapse" id="navbarNav" style="
+    position: relative;
+    
+">
                         <?php 
                         wp_nav_menu(array(
                             'menu' => 'top-menu',
@@ -67,7 +70,7 @@
                             'container' => 'div',
                             'container_class' => 'collapse navbar-collapse',
                             'container_id' => 'navbarNav',
-                            'menu_class' => 'navbar-nav ms-auto align-items-center',
+                            'menu_class' => 'navbar-nav ms-auto align-items-center justify-content-end',
                             'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
                             'walker' => new WP_Bootstrap_Navwalker(),
                         ));
@@ -84,17 +87,7 @@
         </header>
 
         <!-- Contenu principal -->
-        <main class="site-main">
-            <div class="content-grid">
-                <div class="content-main">
-                    <!-- <div class="container">
-                        <div class="jumbotron">
-                            <h1>Coucou 'est nous</h1>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-        </main>
+        
     </div>
 </body>
 </html>

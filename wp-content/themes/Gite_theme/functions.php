@@ -1,4 +1,6 @@
 <?php
+add_filter('use_block_editor_for_post', '__return_true');
+add_theme_support('wp-block-editor');
 
 /**
  * Fichier principal des fonctionnalités du thème
@@ -163,10 +165,10 @@ add_action('after_setup_theme', 'gite_setup');
  */
 function gite_post_meta($date1, $date2, $cat) {
     $chaine = 'publié le <time class="entry-date" datetime="';
-    $chaine .= $date1;
-    $chaine .= '">';
+    // $chaine .= $date1;
+    // $chaine .= '">';
     $chaine .= $date2;
-    $chaine .= '</time> dans la catégorie ';
+    // $chaine .= '</time> dans la catégorie ';
     $chaine .= $cat;
     return $chaine;
 }
@@ -198,4 +200,56 @@ function gite_check_wp_version() {
         });
     }
 }
+
+// paramètre gutenberg
+function gite_gutenberg_support() {
+    // Active l'éditeur de blocs Gutenberg
+    add_theme_support('wp-block-editor');
+
+    // Active les styles spécifiques de l'éditeur
+    add_theme_support('editor-styles');
+    add_editor_style('css/editor-style.css');
+
+    // Active les alignements larges et pleine largeur
+    add_theme_support('align-wide');
+
+    // Active la prise en charge des blocs responsives
+    add_theme_support('responsive-embeds');
+
+    // Active les styles des blocs par défaut
+    add_theme_support('wp-block-styles');
+}
+add_action('after_setup_theme', 'gite_gutenberg_support');
+
 add_action('admin_init', 'gite_check_wp_version');
+
+function gite_enqueue_gutenberg_styles() {
+    wp_enqueue_style('gutenberg-blocks', get_template_directory_uri() . '/css/gutenberg.css', array(), '1.0', 'all');
+}
+add_action('enqueue_block_editor_assets', 'gite_enqueue_gutenberg_styles');
+
+
+// footer 
+
+// Enregistrer le menu du footer
+function Gite_register_menus() {
+    register_nav_menus(array(
+        'footer-menu' => __('Footer Menu', 'Gite'),
+    ));
+}
+add_action('after_setup_theme', 'Gite_register_menus');
+
+
+// Enregistrer une zone de widgets pour le footer
+function Gite_init() {
+    register_sidebar(array(
+        'name'          => __('Footer Widget Area', 'mon-theme'),
+        'id'            => 'footer-widgets',
+        'before_widget' => '<div class="footer-widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h4 class="footer-widget-title">',
+        'after_title'   => '</h4>',
+    ));
+}
+add_action('widgets_init', 'Gite_init');
+

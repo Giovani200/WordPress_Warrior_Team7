@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Greenshift &#8211; animation and page builder blocks - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-29 16:59:52+0000\n"
+"PO-Revision-Date: 2025-01-12 10:38:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -500,11 +500,11 @@ msgstr "Fichier de police"
 msgid "Font"
 msgstr "Police"
 
-#: settings.php:1237
+#: settings.php:1241
 msgid "If you use template inside other dynamic ajax blocks"
 msgstr "Si vous utilisez un modèle dans d’autres blocs Ajax dynamiques"
 
-#: settings.php:1080
+#: settings.php:1084
 msgid "Documentation"
 msgstr "Documentation"
 
@@ -539,7 +539,7 @@ msgstr "Partage mail :"
 msgid "Default Row Content Width"
 msgstr "Largeur du contenu de ligne par défaut"
 
-#: settings.php:1060 templates/admin/settings_general_form.php:36
+#: settings.php:1064 templates/admin/settings_general_form.php:36
 #: build/gspbSiteEditor.js:1 build/gspbStylebook.js:1
 msgid "Save"
 msgstr "Enregistrer"
@@ -582,27 +582,27 @@ msgstr "Style de bouton"
 msgid "Greenshift Elements"
 msgstr "Éléments Greenshift"
 
-#: settings.php:1241
+#: settings.php:1245
 msgid "On view trigger:"
 msgstr "Déclencheur à la vue :"
 
-#: settings.php:1240
+#: settings.php:1244
 msgid "Click trigger:"
 msgstr "Cliquer sur le déclencheur :"
 
-#: settings.php:1238
+#: settings.php:1242
 msgid "Shortcode for Ajax render:"
 msgstr "Code court pour le rendu Ajax :"
 
-#: settings.php:1223
+#: settings.php:1227
 msgid "Usage"
 msgstr "Utilisation"
 
-#: settings.php:1222
+#: settings.php:1226
 msgid "Block title"
 msgstr "Titre du bloc"
 
-#: settings.php:1239
+#: settings.php:1243
 msgid "Hover trigger:"
 msgstr "Déclencheur au survol :"
 
@@ -630,7 +630,7 @@ msgstr "Tablette"
 msgid "Mobile"
 msgstr "Mobile"
 
-#: settings.php:564 settings.php:710 settings.php:865 settings.php:946
+#: settings.php:564 settings.php:710 settings.php:865 settings.php:950
 msgid "Save settings"
 msgstr "Enregistrer les réglages"
 
@@ -639,7 +639,7 @@ msgid "Css location"
 msgstr "Emplacement des CSS"
 
 #: settings.php:487 settings.php:575 settings.php:798 settings.php:877
-#: settings.php:958
+#: settings.php:962
 msgid "Sorry, your nonce did not verify."
 msgstr "Désolé, votre nonce n’ a pas été vérifié."
 

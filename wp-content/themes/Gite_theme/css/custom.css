@@ -71,6 +71,9 @@
     background: white;
 }
 
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+position: relative;
+left: 60px;}
 .navbar-brand img {
     max-height: 50px;
     width: auto;
@@ -166,7 +169,7 @@
    GRILLE POUR LE FOOTER
    =========================================== */
 .site-footer {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: var(--spacing-unit);
     padding: var(--spacing-unit);
