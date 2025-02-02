@@ -14,7 +14,7 @@
    Utilisation de CSS Grid
    =========================================== */
 .site {
-    display: grid;
+    /* display: grid; */
     grid-template-areas:
         "header"
         "main"
@@ -221,4 +221,93 @@ left: 60px;}
 
 .gallery-item:hover img {
     transform: scale(1.1);
+}
+
+
+/*  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+} 
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5e9;
+}  */
+
+.container2 {
+    display: flex;
+    width: 80%;
+    max-width: 1100px;
+    background-color: #f2f1e4;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-section {
+    flex: 1;
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form-section {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f5f5e9;
+}
+
+h2 {
+    color: #4d5b35;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #7a9249;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #5e7035;
+}
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .image-section {
+        height: 250px;
+    }
 }

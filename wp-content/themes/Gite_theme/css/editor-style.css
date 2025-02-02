@@ -7,7 +7,7 @@
 
 /* Largeur par défaut des blocs */
 .wp-block {
-    max-width: 1200px; /* Correspond à la largeur du contenu du site */
+    max-width: 2000px; /* Correspond à la largeur du contenu du site */
 }
 
 /* Configuration des alignements spéciaux */
@@ -16,7 +16,7 @@
 }
 
 .wp-block[data-align="full"] {
-    max-width: none; /* Blocs en pleine largeur */
+    max-width: none; /*Blocs en pleine largeur*/
 }
 
 /* ===========================================
@@ -67,6 +67,8 @@
     padding: 0.5em 1em;
     border-radius: 4px;
 }
+
+
 
 /* Style des boutons avec contour */
 .is-style-outline .wp-block-button__link {

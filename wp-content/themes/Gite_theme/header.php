@@ -4,6 +4,8 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="<?php bloginfo('description'); ?>">
+    <!-- impotation du style.css -->
+    <link rel="stylesheet" href="<?php bloginfo('/style.css'); ?>">
 
     <?php if(is_home()): ?>
         <meta name="description" content="Le site présente la page des articles du blog"/>
@@ -36,7 +38,7 @@
                             the_custom_logo();
                         } else {
                         ?>
-                            <img src="https://www.communication-pictomatic.com/uploadfiles/vos_images/Blog/Maison%20Escaouraou/MaisonEscaouraou_Com_logo1.jpg" alt="Logo Gîte" height="50">
+                            <img src="https://www.gitemontplaisir.com/wp-content/uploads/2025/01/vvvvvvvvvvvvvvvvvvvvvvvvvvvv.png" alt="Logo Gîte" height="50">
                         <?php
                         }
                         ?>

@@ -1,0 +1,75 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 20 January 2025 9h19
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.11.2
+WORDPRESS:	6.7.1
+PHP INFO:	8.2.13 | SAPI: apache2handler
+SERVER:		Apache/2.4.58 (Win64) PHP/8.2.13 mod_fcgid/2.3.10-dev 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (128M default) 
+MEMORY STACK: 8MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported
+TABLES: total:19 | filtered:0 | create:19
+FILTERED: []
+SQL CREATED: 20250120_gite_mon_plaisir_f45dc0170c3bf65c8766_20250120091912_database.sql
+SQL FILE SIZE: 6.93MB (7267671)
+SQL FILE TIME: 2025-01-20 09:19:19
+SQL RUNTIME: 0.83 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  C:/wamp64/www/wordpress_groupe/gite
+ARCHIVE FILE: 20250120_gite_mon_plaisir_f45dc0170c3bf65c8766_20250120091912_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	223.93MB
+STATS:	Dirs 1,133 | Files 10,272
+SQL ADDED: 20250120_gite_mon_plaisir_f45dc0170c3bf65c8766_20250120091912_database.sql
+ZipArchive Object
+(
+    [lastId] => 11404
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 11405
+    [filename] => C:\wamp64\www\wordpress_groupe\gite\wp-content\backups-dup-lite\tmp\20250120_gite_mon_plaisir_f45dc0170c3bf65c8766_20250120091912_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 11404
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 135.5MB
+ARCHIVE RUNTIME: 146.04 sec.
+MEMORY STACK: 12MB
+building installer
+ARCHIVE CONSISTENCY TEST: PASS
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 6.93MB
+INSTALLER FILE: 73.48KB
+ARCHIVE FILE: 137.63MB 
+EXPECTED FILE/DIRECTORY COUNT: 11,405
+ACTUAL FILE/DIRECTORY COUNT: 11,404
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[3]
+TOTAL PROCESS RUNTIME: 150.31 sec.
+PEAK PHP MEMORY USED: 14MB
+DONE PROCESSING => 20250120_gite_mon_plaisir 20 January 2025 9h21
+

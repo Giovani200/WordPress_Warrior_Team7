@@ -253,3 +253,12 @@ function Gite_init() {
 }
 add_action('widgets_init', 'Gite_init');
 
+
+// 
+function custom_full_width_template( $templates ) {
+    $templates['full-width.php'] = 'Full Width Template';
+    return $templates;
+}
+add_filter( 'theme_page_templates', 'custom_full_width_template' );
+
+
