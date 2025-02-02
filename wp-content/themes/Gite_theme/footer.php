@@ -15,7 +15,7 @@
                 <ul class="list-unstyled" style="
     color: #5D6D4C;
 ">
-                    <li><a href="https://www.gitemontplaisir.com/" class="text-dark text-decoration-none">Accueil</a></li>
+                    <li><a href="https://www.gitemontplaisir.com/" class="text-dark text-decoration-none" >Accueil</a></li>
                     <li><a href="https://www.gitemontplaisir.com/chambres/" class="text-dark text-decoration-none">Chambres</a></li>
                     <li><a href="https://www.gitemontplaisir.com/activites/" class="text-dark text-decoration-none">Activités</a></li>
                     <li><a href="https://www.gitemontplaisir.com/tarifs-et-promotions/" class="text-dark text-decoration-none">Tarifs et Promotions</a></li>
@@ -28,9 +28,9 @@
     color: #5D6D4C;
 ">
                 <h4 class="h6">Contactez-nous</h4>
-                <p>Adresse : Gîte Montplaisir,<br>[Adresse]</p>
+                <p>Adresse :<br>Montplaisir, 72320 Vibraye</p>
                 <p>Tél : +33 (0)6 22 60 37 95</p>
-                <p>Email : <a href="mailto:legitermontplaisir@gmail.com" class="text-dark text-decoration-none">legitermontplaisir@gmail.com</a></p>
+                <p>Email : <a href="mailto:natve12@yahoo.fr" class="text-dark text-decoration-none">natve12@yahoo.fr</a></p>
             </div>
 
             <!-- Colonne 4 : Informations légales -->

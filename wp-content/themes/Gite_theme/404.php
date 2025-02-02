@@ -3,7 +3,7 @@ get_header(); ?>
 
 <div class="container-404">
     <div class="content-404">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/404-image.jpg" alt="Page non trouvée">
+        <img src="https://www.gitemontplaisir.com/wp-content/uploads/2025/02/error-404-1024x471.png" alt="Page non trouvée">
         <h1>Oups ! Page non trouvée</h1>
         <p>La page que vous recherchez semble introuvable. Peut-être qu'elle a été déplacée ou supprimée.</p>
         <a href="<?php echo home_url(); ?>" class="btn-404">Retour à l'accueil</a>
